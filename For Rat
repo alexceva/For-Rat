@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dark Christmas Love Letter</title>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background-color: #000;
+            background-image: url("meow.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            font-family: "Georgia", serif;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            color: #f5f5f5;
+            overflow: hidden;
+            padding-left: 8vw;
+        }
+
+        /* Snow */
+        .snow {
+            position: fixed;
+            top: -10px;
+            color: #ffffff;
+            font-size: 16px;
+            opacity: 0.7;
+            animation: fall linear infinite;
+            z-index: 1;
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(110vh) translateX(30px);
+            }
+        }
+
+        /* CHENAR DE CRĂCIUN */
+        .letter {
+            width: 650px;
+            max-width: 90vw;
+            padding: 30px 35px;
+            position: relative;
+            z-index: 2;
+
+            background: rgba(20, 20, 30, 0.75);
+            border: 3px solid #c1121f;
+            border-radius: 20px;
+
+            box-shadow:
+                0 0 25px rgba(193, 18, 31, 0.6),
+                inset 0 0 20px rgba(255, 255, 255, 0.05);
+
+            backdrop-filter: blur(4px);
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+        }
+
+        h1 {
+            text-align: left;
+            color: #ffe6e6;
+            margin-bottom: 25px;
+            letter-spacing: 1px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        .signature {
+            margin-top: 35px;
+            text-align: left;
+            font-style: italic;
+            color: #ffecec;
+        }
+
+        .icons {
+            text-align: left;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Snowflakes -->
+    <div class="snow" style="left: 10%; animation-duration: 9s;">❄</div>
+    <div class="snow" style="left: 25%; animation-duration: 12s;">❄</div>
+    <div class="snow" style="left: 40%; animation-duration: 8s;">❄</div>
+    <div class="snow" style="left: 55%; animation-duration: 11s;">❄</div>
+    <div class="snow" style="left: 70%; animation-duration: 10s;">❄</div>
+    <div class="snow" style="left: 85%; animation-duration: 13s;">❄</div>
+
+    <!-- Scrisoare -->
+    <div class="letter">
+        <h1>Hohohoho merry chrismas</h1>
+
+        <p>My fav rat,</p>
+
+        <p>
+          I hope you have a jolly chrismas and i want you to know i love you so muchhh.
+          And i know im not with you now fizic but im always with you with my jolly chrismas spirit :3
+        </p>
+
+        <p>
+          And i hope you have fun for chrismas without me anyway
+          but in one day I hope we can have fun for chrismas together (I guarantee that) 
+          and I can't for our first chrismas together. :33
+        </p>
+
+        <p>
+         I wish you a merry chrismas and i want you to know you made my chrismas way better 
+         with your presence and i love every moment with you and i want this to never end. 
+         You are perfect and i love everthing about you and nothing can change that. :333
+        </p>
+
+        <div class="signature">
+            Forever yours,<br>
+            [Emo]
+        </div>
+
+        <div class="icons">🫀:33 </div>
+    </div>
+
+</body>
+</html>
